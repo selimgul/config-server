@@ -8,14 +8,9 @@ eureka:
     fetch-registry: true
     healthcheck:
       enabled: true
-      
+
 management:
   endpoint:
     health: 
       show-details: always
-    shutdown:
-      enabled: true
-  endpoints:
-    web: 
-      exposure:
-        include: *
+    
