@@ -2,7 +2,7 @@ config-key: this-config-value-comes-from-application.yml
 
 eureka:
   client:
-    service-url: 
+    serviceUrl: 
       defaultZone: http://discovery-server/eureka/
     register-with-eureka: true
     fetch-registry: true
