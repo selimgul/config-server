@@ -16,4 +16,6 @@ management:
     shutdown:
       enabled: true
   endpoints:
-    web: true
+    web:
+      exposure:
+        include: *
