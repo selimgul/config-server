@@ -15,5 +15,4 @@ management:
       show-details: always
     shutdown:
       enabled: true
-  endpoints: *
-    
+  endpoints: true 
