@@ -5,7 +5,7 @@ eureka:
     service-url: 
       defaultZone: http://discovery-server/eureka/
     register-with-eureka: true
-    fetch-registry:true
+    fetch-registry: true
     healthcheck:
       enabled: true
 
