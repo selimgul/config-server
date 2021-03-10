@@ -1,4 +1,4 @@
-config-key: this-config-value-comes-from-application.yml
+config-key: this-config-value-comes-from-application.yml-updated
 
 eureka:
   client:
